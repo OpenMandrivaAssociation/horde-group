@@ -18,7 +18,6 @@ Requires:      horde-framework
 Requires:      horde-datatree
 Requires:      horde-auth
 Requires:      php-gettext
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 
