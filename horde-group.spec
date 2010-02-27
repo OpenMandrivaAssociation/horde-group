@@ -12,7 +12,7 @@ Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-PreReq:        %{_bindir}/pear
+Requires(pre): %{_bindir}/pear
 Requires:      php-pear
 Requires:      horde-framework
 Requires:      horde-datatree
@@ -21,7 +21,7 @@ Requires:      php-gettext
 BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 Package for managing and accessing the Horde groups system.
