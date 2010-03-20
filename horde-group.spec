@@ -5,14 +5,14 @@
 
 Name:          horde-group
 Version:       0.1.0
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde User Groups System
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      php-pear
 Requires:      horde-framework
 Requires:      horde-datatree
