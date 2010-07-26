@@ -5,7 +5,7 @@
 
 Name:          horde-group
 Version:       0.1.0
-Release:       %mkrel 3
+Release:       %mkrel 4
 Summary:       Horde User Groups System
 License:       LGPL
 Group:         Networking/Mail
