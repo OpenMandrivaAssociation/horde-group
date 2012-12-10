@@ -62,3 +62,26 @@ fi
 %{peardir}/Horde/Group/mock.php
 %{peardir}/Horde/Group/sql.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-4mdv2011.0
++ Revision: 560545
+- Increased release for rebuild
+
+* Sat Mar 20 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-3mdv2010.1
++ Revision: 525371
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel ver to 3
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-2mdv2010.1
++ Revision: 524839
+- increased rel version to 2
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-1mdv2010.1
++ Revision: 512337
+- removed BuildRequires: horde-group
+- removed BuildRequires: horde-framework
+- Initial import
+
+
